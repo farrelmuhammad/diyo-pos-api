@@ -7,6 +7,15 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Setup Laravel Diyo POS API
+- Rubah ```.env.example``` menjadi ```.env```
+- Buat database baru ```MySQL``` dengan nama = diyo_pos
+- Jalankan command "composer Install"
+- Jalankan command "php artisan migrate"
+- Jalankan command "php artisan db:seed"
+- Jalankan command "php artisan serve" untuk menjalankan project pada web local
+- Gunakan link postman ini untuk testing API [LINK](https://www.postman.com/planetary-zodiac-483538/workspace/my-workspace/collection/17804593-3f5f9f02-980f-4cf1-b045-d9e297afc498?action=share&creator=17804593)
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
